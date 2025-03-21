@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.Scanner;
 
-public class one{
+public class OneTwoThreeFourFive{
     public static void main(String[] args)
     {
       // 1)Print a mesage
@@ -21,6 +21,15 @@ public class one{
         System.out.println(i);
       }
 
+         // 4)print the odd numbers between 1 to 20
+      System.out.println("--------------------------------------------------");
+      for (int i = 1; i <= 20; i++)
+      {
+        if(i % 2 == 1)
+        {
+           System.out.println(i); 
+        }
+      }
 
 
 
@@ -28,7 +37,6 @@ public class one{
 
 
 
-      
     }
 
 }
